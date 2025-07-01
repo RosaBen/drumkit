@@ -1,0 +1,16 @@
+<div data-controller="drumkit">
+  <div class="keys">
+    <div data-key="65" class="key" data-drumkit-target="key">
+      <kbd>A</kbd>
+    </div>
+    <div data-key="83" class="key" data-drumkit-target="key">
+      <kbd>S</kbd>
+    </div>
+    <div data-key="68" class="key" data-drumkit-target="key">
+      <kbd>D</kbd>
+    </div>
+  </div>
+  <audio data-key="65" src="<%= asset_path('clap.wav') %>"></audio>
+  <audio data-key="83" src="<%= asset_path('hihat.wav') %>"></audio>
+  <audio data-key="68" src="<%= asset_path('kick.wav') %>"></audio>
+</div>
